@@ -312,4 +312,26 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid red;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  outline: 1px solid red;
+  padding: 1rem;
+}
+
+button {
+  width: 155px;
 }/*# sourceMappingURL=style.css.map */
