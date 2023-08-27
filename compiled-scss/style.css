@@ -316,9 +316,9 @@ template {
 
 #main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  outline: 1px solid red;
   height: 100vh;
   width: 100vw;
 }
@@ -328,10 +328,14 @@ template {
   flex-wrap: wrap;
   width: 500px;
   height: 500px;
-  outline: 1px solid red;
   padding: 1rem;
 }
 
 button {
   width: 155px;
+}
+
+.result {
+  text-align: center;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
