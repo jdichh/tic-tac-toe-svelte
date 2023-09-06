@@ -52,7 +52,7 @@
   }
 </script>
 
-<div id="main">
+<main id="main">
   {#if !result}
     <h1>It is {turnIcon}'s turn.</h1>
     <div class="container">
@@ -73,4 +73,4 @@
       <button on:click={restart} class="restartBtn"> Restart Game </button>
     </div>
   {/if}
-</div>
+</main>
